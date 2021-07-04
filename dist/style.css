@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2', cursive;
+}
+#content::before{
+    content: "";
+    background: url("bg.jpg");
+    position: absolute;
+    display: inline-block;
+    width: 100vw;
+    height: 135vh;
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: 90%;
+    
+}
+#content{
+    width: 100vw;
+    height: 100vh;
+}
+.all{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    
+}
+
+.header{
+    display: flex;
+    left: 40%;
+    width: 40%;
+    font-size: 1.4vw;
+   margin: 0vw auto 1.7vw;
+   padding: 1.7vw;
+   justify-content: space-between;
+}
+.header>div{
+    cursor: pointer;
+    background-color: rgb(231, 209, 180);
+    border-radius: 2vw;
+    padding: 1vw;
+}
+
+.header>div:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+h1,.about, .hours, .location{
+    background-color: black;
+    color: white;
+    margin: 4vw;
+    border-radius: 2vw;
+    padding: 5px;
+}
+h1, .hours, .location{
+    width: 30%;
+    padding: 0.5vw;
+    margin: 2.3vw auto;
+}
+.location{
+    margin: 2.5vw auto 0vw;
+}
+
+.menu,.wine,.snacks{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw auto 0vw;
+    
+}
+.img>img{
+    width: 23vw;
+    height: 16.5vw;
+    margin: 0vw 2vw;
+}
+.wine,.snacks{
+    flex-direction: row;
+   
+    width: 45vw;
+}
+.text{
+    line-height: 2.5vw;
+    background-color: black;
+    color: white;
+    width: 13vw;
+    font-size: 1.4vw;
+    border-radius: 1.5vw;
+    padding: 1vw;
+}
+.contact{
+    margin: 5vw auto;
+}
+.hide{ 
+    display: none;
+}
