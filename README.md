@@ -1,5 +1,5 @@
 
-# Reataurant Page
+# Restaurant Page
 
 In this project I created a small page using HTML, CSS and Javascript. I used Webpack bundler to bundle scripts.
 
